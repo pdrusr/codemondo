@@ -1,0 +1,38 @@
+{
+  "name": "codemondo",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de atividades e alunos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrusr/codemondo.git"
+  },
+  "keywords": [
+    "codemondo",
+    "classroom",
+    "classmate",
+    "javascript",
+    "nodejs",
+    "restify",
+    "postgres",
+    "regex",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "pdrusr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdrusr/codemondo/issues"
+  },
+  "homepage": "https://github.com/pdrusr/codemondo#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "restify": "^8.5.1"
+  }
+}
